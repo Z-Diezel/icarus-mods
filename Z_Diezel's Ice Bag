@@ -1,0 +1,349 @@
+{
+    "name": "Z_Diezel's Ice Bag",
+    "author": "",
+    "version": "0.1.1",
+    "description": "Crafted at a textile bench, this bag will keep all perishables chilled for the journey.  With 10 inventory slots, it's the perfect solution for the prospector on the go.",
+    "fileName": "Z_Diezel_Ice_Bag",
+    "imageURL": "",
+    "readmeURL": "",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+            "File_Items": [
+                {
+                    "Name": "Diezel_Ice_Bag",
+                    "RequiredMillijoules": 15000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Armor_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Advanced_Armor_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Electric_Armor_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Rope",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Leather",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Aluminium",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Screw",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 8,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Diezel_Ice_Bag",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemsStatic.json",
+            "File_Items": [
+                {
+                    "Name": "Diezel_Ice_Bag",
+                    "Meshable": {
+                        "RowName": "Mesh_Seed_Pouch"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Diezel_Ice_Bag"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Open_Bag"
+                    },
+                    "Usable": {
+                        "RowName": "Open_Inventory"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_250"
+                    },
+                    "Inventory": {
+                        "RowName": "Diezel_Ice_Bag"
+                    },
+                    "InventoryContainer": {
+                        "RowName": "Diezel_Ice_Bag"
+                    },
+                    "Generator": {
+                        "RowName": "Diezel_Ice_Bag"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_10_Minutes"
+                    },
+                    "Audio": {
+                        "RowName": "GenericDeployable"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Bag.Seed"
+                            },
+                            {
+                                "TagName": "FieldGuide.Equipment"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Bag.Seed"
+                            },
+                            {
+                                "TagName": "FieldGuide.Equipment"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Durable"
+                            },
+                            {
+                                "TagName": "Traits.Inventory"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemTemplate.json",
+            "File_Items": [
+                {
+                    "Name": "Diezel_Ice_Bag",
+                    "ItemStaticData": {
+                        "RowName": "Diezel_Ice_Bag"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Inventory-D_InventoryInfo.json",
+            "File_Items": [
+                {
+                    "Name": "Diezel_Ice_Bag",
+                    "InventoryID": {
+                        "Value": "General"
+                    },
+                    "SlotTemplate": {
+                        "RowName": "Diezel_Ice_Bag_Contents"
+                    },
+                    "StartingSlots": 10,
+                    "MaxStack": 6
+                },
+                {
+                    "Name": "Diezel_Ice_Bag_Ice",
+                    "InventoryID": {
+                        "Value": "Fuel"
+                    },
+                    "SlotTemplate": {
+                        "RowName": "Resource_Ice"
+                    },
+                    "StartingSlots": 1,
+                    "MaxStack": 20
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Inventory.json",
+            "File_Items": [
+                {
+                    "Name": "Diezel_Ice_Bag",
+                    "Inventories": [
+                        {
+                            "RowName": "Diezel_Ice_Bag",
+                            "DataTableName": "D_InventoryInfo"
+                        },
+                        {
+                            "RowName": "Diezel_Ice_Bag_Ice",
+                            "DataTableName": "D_InventoryInfo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Inventory-D_InventoryContainer.json",
+            "File_Items": [
+                {
+                    "Name": "Diezel_Ice_Bag",
+                    "InventoryInfo": {
+                        "RowName": "Diezel_Ice_Bag"
+                    },
+                    "bCanInventoryTick": true
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Itemable.json",
+            "File_Items": [
+                {
+                    "Name": "Item_Diezel_Ice_Bag",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Diezel_Ice_Bag-DisplayName\", \"Ice Bag\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_Item_Seed_Pouch_T2.T_Item_Seed_Pouch_T2",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Diezel_Ice_Bag-Description\", \"Stores food at low temperatures when supplied with ice.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Diezel_Ice_Bag-FlavorText\", \"The insulated Ice Bag reduces food decay, as well as slowing the melting of ice itself. Has 10 storage slots.\")",
+                    "Weight": 500
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Meshable.json",
+            "File_Items": [
+                {
+                    "Name": "Mesh_Diezel_Ice_Bag",
+                    "ItemMesh": "/Game/ASS/ITM/SM_ITM_Seed_Pouch.SM_ITM_Seed_Pouch",
+                    "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Modifiers-D_ModifierStates.json",
+            "File_Items": [
+                {
+                    "Name": "Diezel_Ice_Bag_Spoil_Rate",
+                    "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_SpoilTime.Icon_SpoilTime'",
+                    "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Diezel_Ice_Bag_Spoil_Rate-ModifierName\", \"Chilly Bag\")",
+                    "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Diezel_Ice_Bag_Spoil_Rate-ModifierDescription\", \"Keeps inventory contents cool. Reduces spoil rate.\")",
+                    "GrantedStats": {
+                        "(Value=\"BaseInventorySpoilRate_+%\")": -300,
+                        "(Value=\"BaseExternalTemperatureModification_+\")": -500
+                    },
+                    "MergeType": "Replace",
+                    "bEffectsObjects": true,
+                    "bEffectsNPCs": false
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Tags-D_TagQueries.json",
+            "File_Items": [
+                {
+                    "Name": "Diezel_Ice_Bag_Contents",
+                    "Query": {
+                        "TagDictionary": [
+                            {
+                                "TagName": "Item.Consumable.Food"
+                            },
+                            {
+                                "TagName": "NPC.Fish"
+                            },
+                            {
+                                "TagName": "Item.Resource.Ice"
+                            },
+                            {
+                                "TagName": "Item.AnimalFeed"
+                            },
+                            {
+                                "TagName": "Item.Resource.Spoilable"
+                            },
+                            {
+                                "TagName": "Item.Spoilable"
+                            }
+                        ],
+                        "QueryTokenStream": [
+                            0,
+                            1,
+                            1,
+                            6,
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ],
+                        "AutoDescription": " ANY( Item.Consumable.Food, NPC.Fish, Item.Resource.Ice, Item.AnimalFeed, Item.Resource.Spoilable, Item.Spoilable )"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Generator.json",
+            "File_Items": [
+                {
+                    "Name": "Diezel_Ice_Bag",
+                    "Resource": {
+                        "Value": "Energy"
+                    },
+                    "GenerationRate": 1,
+                    "TransmutableItems": [
+                        {
+                            "RowName": "Ice",
+                            "DataTableName": "D_ItemsStatic"
+                        }
+                    ],
+                    "RequiresManualActivation": false
+                }
+            ]
+        },
+        {
+            "CurrentFile": "EndOfMod"
+        }
+    ]
+}
