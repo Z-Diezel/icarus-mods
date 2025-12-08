@@ -1,0 +1,58 @@
+{
+    "name": "Z_Diezel's Leather to Fiber",
+    "author": "Z_Diezel",
+    "fileName": "Z_Diezel_Leather_To_Fiber",
+    "description": "A simple recipe to solve the issue of too much leather.",
+    "version": "1.1",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+            "File_Items": [
+                {
+                    "Name": "Fiber",
+                    "SessionRequirement": {
+                        "DataTableName": "D_SessionFlags"
+                    },
+                    "RequiredMillijoules": 1250,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Mortar_And_Pestle",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Material_Processor",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Leather",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fiber",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "MortarPestle"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "EndOfMod"
+        }
+    ]
+}
