@@ -1,0 +1,1 @@
+A portable ice-infused elanthium cryogenic canister to keep perishables from spoiling. Purchased in the workshop tab named Diezel Inc.
