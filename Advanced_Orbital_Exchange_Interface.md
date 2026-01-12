@@ -1,0 +1,3 @@
+An Orbital Exchange Interface that is able to direct the exchange pods to an exact location. Requires the T2 Orbital Exchange Interface talent. Crafted at the Fabricator. This version does NOT require electricity.
+
+The asset mesh exists in the game files. I built the necessary data around it, and made the uasset icon. A future Icarus update may change the blueprint, so I left it as it is for now.
