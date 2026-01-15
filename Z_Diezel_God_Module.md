@@ -2,11 +2,10 @@ Welcome to deification. Feel free to modify the workshop research and replicatio
 
 "GrantedStats": {
                         "(Value=\"BaseWeightCapacity_+%\")": 200,
-                        "(Value=\"BaseBackpackSlots_+\")": 18,
                         "(Value=\"BaseMaximumStamina_+%\")": 200,
-                        "(Value=\"BaseFoodConsumptionPerHour_+\")": -100,
-                        "(Value=\"BaseWaterConsumptionPerHour_+\")": -100,
-                        "(Value=\"BaseOxygenConsumptionPerHour_+\")": -100,
+                        "(Value=\"BaseFoodConsumptionPerHour_+\")": -599,
+                        "(Value=\"BaseWaterConsumptionPerHour_+\")": -899,
+                        "(Value=\"BaseOxygenConsumptionPerHour_+\")": -479,
                         "(Value=\"BaseMovementSpeed_+%\")": 10,
                         "(Value=\"BaseSprintSpeed_+%\")": 20,
                         "(Value=\"BaseMeleeDamageResistance_%\")": 100,
@@ -22,6 +21,8 @@ Welcome to deification. Feel free to modify the workshop research and replicatio
                         "(Value=\"BasePoisonDamageResistance_%\")": 100,
                         "(Value=\"BaseWoundResistance_%\")": 100,
                         "(Value=\"BaseDeepWoundResistance_%\")": 100,
+                        "(Value=\"BaseCollisionDamageResistance_%\")": 100,
+                        "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100,
                         "(Value=\"CanSeeHealth_?\")": 1,
                         "(Value=\"CanSeeStatuses_?\")": 1,
                         "(Value=\"MapCanSeeBuildings_?\")": 1,
