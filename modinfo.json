@@ -102,7 +102,7 @@
     {
       "name": "Exotics Resource Supply",
       "author": "Z_Diezel",
-      "version": "1.0",
+      "version": "1.1",
       "compatibility": "213+",
       "description": "An Exotics Resource Supply Package for all your elanthium-infused crafting needs.",
       "files": {
@@ -113,5 +113,6 @@
     }
   ]
 }
+
 
 
