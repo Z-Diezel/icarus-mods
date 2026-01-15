@@ -39,9 +39,9 @@
     {
       "name": "Z_Diezel's Glutton Module",
       "author": "Z_Diezel",
-      "version": "1.0",
-      "compatibility": "210+",
-      "description": "Adds an extra module and stomach slot, because who doesn't need extra carbs? Debuffs all speed-related traits by 10%.",
+      "version": "1.1",
+      "compatibility": "214",
+      "description": "Adds an extra food and stomach slot, because who doesn't need extra carbs? Debuffs all speed-related traits by 10%.",
       "files": {
         "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Glutton_Module.EXMODZ"
       },
@@ -113,4 +113,5 @@
     }
   ]
 }
+
 
