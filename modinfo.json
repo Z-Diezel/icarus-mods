@@ -89,8 +89,8 @@
     {
       "name": "Honey 'Protein' Bar",
       "author": "Z_Diezel",
-      "version": "1.0",
-      "compatibility": "210+",
+      "version": "1.1",
+      "compatibility": "215",
       "description": "A yummy protein snack for a sustainable Icarus. It's better not to ask what's in it. Crafted in the Mortal and Pestle.",
       "files": {
         "pak": "https://github.com/Z-Diezel/icarus-mods/blob/main/Honey_Protein_Bar_P.pak",
@@ -113,6 +113,7 @@
     }
   ]
 }
+
 
 
 
