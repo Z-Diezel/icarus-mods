@@ -110,9 +110,22 @@
       },
       "imageURL": "",
       "readmeURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Honey_Protein_Bar.md"
+    },
+    {
+      "name": "Z_Diezel's Ultra Fertilizer + Spoiled Meat",
+      "author": "Z_Diezel",
+      "version": "1.1",
+      "compatibility": "216",
+      "description": "Allows Spoiled Meat and a second element to produce High-Quality, Growth, Recovery, and Resistance fertilizers in the composter, and replaces Progenitive Fertilizer with new Exotic Ultra Fertilizer.",
+      "files": {
+        "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Exotic_Fertilizer_Spoiled_Meat.EXMODZ"
+      },
+      "imageURL": "",
+      "readmeURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Exotic_Fertilizer_Spoiled_Meat.md"
     }
   ]
 }
+
 
 
 
