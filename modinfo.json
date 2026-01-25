@@ -7,6 +7,7 @@
       "compatibility": "214",
       "description": "An Orbital Exchange Interface that is able to direct the exchange pods to an exact location. Requires the T2 Orbital Exchange Interface talent. Crafted at the Fabricator. This version does NOT require electricity. (The asset mesh exists in the game files. I built the necessary data around it, and made the uasset icon. A future Icarus update may change the blueprint, so I left it as it is for now.)",
       "files": {
+        "pak": "",
         "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Advanced_Orbital_Exchange_Interface.EXMODZ"
       },
       "imageURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Advanced_Orbital_Exchange_Interface.png",
@@ -19,6 +20,7 @@
       "compatibility": "210+",
       "description": "A portable ice-infused elanthium cryogenic canister to keep perishables from spoiling. Crafted at the Fabricator from 8 Iron Ingot, 10 Aluminum Ingot, 3 Carbon Paste, 10 Exotics, and 18 Ice. Has 10 slots.",
       "files": {
+        "pak": "",
         "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Cryo_Canister.EXMODZ"
       },
       "imageURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Cryo_Canister.png",
@@ -31,6 +33,7 @@
       "compatibility": "210+",
       "description": "A portable ice-infused elanthium cryogenic canister to keep perishables from spoiling. Purchased in the workshop tab named Diezel Inc.",
       "files": {
+        "pak": "",
         "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Cryo_Canister_Workshop.EXMODZ"
       },
       "imageURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Cryo_Canister_Workshop.png",
@@ -43,6 +46,7 @@
       "compatibility": "214",
       "description": "Adds an extra food and stomach slot, because who doesn't need extra carbs? Debuffs all speed-related traits by 10%.",
       "files": {
+        "pak": "",
         "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Glutton_Module.EXMODZ"
       },
       "imageURL": "",
@@ -55,6 +59,7 @@
       "compatibility": "214",
       "description": "Welcome to deification. Feel free to modify the workshop research and replication cost.",
       "files": {
+        "pak": "",
         "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_God_Module.EXMODZ"
       },
       "imageURL": "",
@@ -106,6 +111,7 @@
       "compatibility": "213+",
       "description": "An Exotics Resource Supply Package for all your elanthium-infused crafting needs.",
       "files": {
+        "pak": "",
         "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Exotics_Resource_Supply.EXMODZ"
       },
       "imageURL": "",
@@ -118,6 +124,7 @@
       "compatibility": "216",
       "description": "Allows Spoiled Meat and a second element to produce High-Quality, Growth, Recovery, and Resistance fertilizers in the composter, and replaces Progenitive Fertilizer with new Exotic Ultra Fertilizer.",
       "files": {
+        "pak": "",
         "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Exotic_Fertilizer_Spoiled_Meat.EXMODZ"
       },
       "imageURL": "",
@@ -125,6 +132,7 @@
     }
   ]
 }
+
 
 
 
