@@ -66,17 +66,17 @@
       "readmeURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_God_Module.md"
     },
     {
-      "name": "Z_Diezel's Workshop Horse Speed Talent Fix",
+      "name": "Z_Diezel's Workshop Horse Stim Implant",
       "author": "Z_Diezel",
-      "version": "1.0",
+      "version": "1.1",
       "compatibility": "210+",
       "description": "This mod removes the penalty to sprint speed in the Trotting Pace talent and adds a sprint speed buff. The talent is now titled Stim Implant.",
       "files": {
-        "pak": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Workshop_Horse_Speed_Talent_Fix.pak",
-        "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Workshop_Horse_Speed_Talent_Fix.EXMODZ"
+        "pak": "",
+        "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Workshop_Horse_Stim_Implant.EXMODZ"
       },
       "imageURL": "",
-      "readmeURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Workshop_Horse_Speed_Talent_Fix.md"
+      "readmeURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Workshop_Horse_Stim_Implant.md"
     },
     {
       "name": "Rebalanced Zhang Hu Bow",
@@ -132,6 +132,7 @@
     }
   ]
 }
+
 
 
 
