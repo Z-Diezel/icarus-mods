@@ -114,8 +114,8 @@
         "pak": "",
         "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Exotics_Resource_Supply.EXMODZ"
       },
-      "imageURL": "",
-      "readmeURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Honey_Protein_Bar.md"
+      "imageURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Exotics_Resource_Supply.png",
+      "readmeURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Exotics_Resource_Supply.md"
     },
     {
       "name": "Z_Diezel's Ultra Fertilizer + Spoiled Meat",
@@ -132,6 +132,7 @@
     }
   ]
 }
+
 
 
 
