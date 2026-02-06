@@ -1,0 +1,1 @@
+Place in water, add Stone. Automatically accumulates Salt. Requires Biofuel Composter research in the Tech Tree.
