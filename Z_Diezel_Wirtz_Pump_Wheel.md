@@ -1,0 +1,1 @@
+A combined wheel and generator with an added water pump function. Requires Water Wheel research in the Tech Tree.
