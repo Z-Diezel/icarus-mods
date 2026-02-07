@@ -155,7 +155,19 @@
       },
       "imageURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Wirtz_Pump_Wheel.png",
       "readmeURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Wirtz_Pump_Wheel.md"
+    },
+    {
+      "name": "Level Deployables",
+      "author": "Z_Diezel",
+      "version": "1.0",
+      "compatibility": "216",
+      "description": "Levels some benches and other placeable objects so they don't look all stupid and cattywampus.",
+      "files": {
+        "pak": "",
+        "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Level_Deployables.EXMODZ"
+      },
+      "imageURL": "",
+      "readmeURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Level_Deployables.md"
     }
   ]
 }
-
