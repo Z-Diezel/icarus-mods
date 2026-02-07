@@ -142,17 +142,19 @@
       },
       "imageURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Salt_Collector.png",
       "readmeURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Salt_Collector.md"
+    },
+    {
+      "name": "Z_Diezel's Wirtz Pump Wheel",
+      "author": "Z_Diezel",
+      "version": "1.0",
+      "compatibility": "216",
+      "description": "A combined wheel and generator with an added water pump function. Requires Water Wheel research in the Tech Tree.",
+      "files": {
+        "pak": "",
+        "exmodz": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Wirtz_Pump_Wheel.EXMODZ"
+      },
+      "imageURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Wirtz_Pump_Wheel.png",
+      "readmeURL": "https://github.com/Z-Diezel/icarus-mods/blob/main/Z_Diezel_Wirtz_Pump_Wheel.md"
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
