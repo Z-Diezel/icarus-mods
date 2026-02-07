@@ -1,0 +1,1 @@
+Levels some benches and other placeable objects so they don't look all stupid and cattywampus.
